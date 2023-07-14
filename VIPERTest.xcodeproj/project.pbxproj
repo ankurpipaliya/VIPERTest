@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB43C6792A613F4F0049062E /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6782A613F4F0049062E /* HTTPManager.swift */; };
+		BB43C67E2A61466F0049062E /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C67D2A61466F0049062E /* commentCell.swift */; };
+		BB43C6AF2A6147A40049062E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6AE2A6147A40049062E /* PostCell.swift */; };
+		BB43C6B52A6148100049062E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6B42A6148100049062E /* ViewController.swift */; };
+		BB43C6B92A61488F0049062E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6B82A61488F0049062E /* Presenter.swift */; };
+		BB43C6BD2A6148C60049062E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6BC2A6148C50049062E /* Router.swift */; };
+		BB43C6C02A6149720049062E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6BF2A6149720049062E /* Protocols.swift */; };
+		BB43C6C22A61499C0049062E /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6C12A61499C0049062E /* Interactor.swift */; };
+		BB43C6C52A6149BC0049062E /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6C32A6149BC0049062E /* PostModel.swift */; };
+		BB43C6C62A6149BC0049062E /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6C42A6149BC0049062E /* CommentModel.swift */; };
+		BB43C6CF2A614C320049062E /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6CE2A614C320049062E /* protocol.swift */; };
+		BB43C6D12A614C790049062E /* CommentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6D02A614C790049062E /* CommentPresenter.swift */; };
+		BB43C6D32A614CCD0049062E /* CommentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6D22A614CCD0049062E /* CommentRouter.swift */; };
+		BB43C6D52A614D010049062E /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6D42A614D010049062E /* CommentViewController.swift */; };
+		BB43C6D72A614D310049062E /* CommentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43C6D62A614D310049062E /* CommentInteractor.swift */; };
 		BBC7A6802A6123A200DF237D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7A67F2A6123A200DF237D /* AppDelegate.swift */; };
 		BBC7A6822A6123A200DF237D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7A6812A6123A200DF237D /* SceneDelegate.swift */; };
-		BBC7A6842A6123A200DF237D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7A6832A6123A200DF237D /* ViewController.swift */; };
 		BBC7A6872A6123A200DF237D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC7A6852A6123A200DF237D /* Main.storyboard */; };
 		BBC7A6892A6123A400DF237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC7A6882A6123A400DF237D /* Assets.xcassets */; };
 		BBC7A68C2A6123A400DF237D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC7A68A2A6123A400DF237D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB43C6782A613F4F0049062E /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		BB43C67D2A61466F0049062E /* commentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
+		BB43C6AE2A6147A40049062E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BB43C6B42A6148100049062E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB43C6B82A61488F0049062E /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		BB43C6BC2A6148C50049062E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BB43C6BF2A6149720049062E /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		BB43C6C12A61499C0049062E /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = VIPERTest/PostViper/Interactor.swift; sourceTree = SOURCE_ROOT; };
+		BB43C6C32A6149BC0049062E /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostModel.swift; path = VIPERTest/PostViper/PostModel.swift; sourceTree = SOURCE_ROOT; };
+		BB43C6C42A6149BC0049062E /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentModel.swift; path = VIPERTest/CommentViper/Model/CommentModel.swift; sourceTree = SOURCE_ROOT; };
+		BB43C6CE2A614C320049062E /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		BB43C6D02A614C790049062E /* CommentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPresenter.swift; sourceTree = "<group>"; };
+		BB43C6D22A614CCD0049062E /* CommentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRouter.swift; sourceTree = "<group>"; };
+		BB43C6D42A614D010049062E /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		BB43C6D62A614D310049062E /* CommentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInteractor.swift; sourceTree = "<group>"; };
 		BBC7A67C2A6123A200DF237D /* VIPERTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC7A67F2A6123A200DF237D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC7A6812A6123A200DF237D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBC7A6832A6123A200DF237D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBC7A6862A6123A200DF237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBC7A6882A6123A400DF237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC7A68B2A6123A400DF237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +65,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB43C6632A6129500049062E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6BF2A6149720049062E /* Protocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		BB43C6662A6129830049062E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6AE2A6147A40049062E /* PostCell.swift */,
+				BB43C6B42A6148100049062E /* ViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BB43C6682A6129830049062E /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6B82A61488F0049062E /* Presenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		BB43C66A2A6129830049062E /* router */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6BC2A6148C50049062E /* Router.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		BB43C66C2A6129830049062E /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6C12A61499C0049062E /* Interactor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		BB43C6722A612A750049062E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6C32A6149BC0049062E /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB43C6772A613F4F0049062E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6782A613F4F0049062E /* HTTPManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BB43C67C2A61458A0049062E /* PostViper */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6632A6129500049062E /* protocols */,
+				BB43C6682A6129830049062E /* presenter */,
+				BB43C66A2A6129830049062E /* router */,
+				BB43C6662A6129830049062E /* view */,
+				BB43C66C2A6129830049062E /* interactor */,
+				BB43C6722A612A750049062E /* Model */,
+			);
+			path = PostViper;
+			sourceTree = "<group>";
+		};
+		BB43C6C72A614B280049062E /* CommentViper */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6C92A614B510049062E /* Protocol */,
+				BB43C6CA2A614B540049062E /* Presenter */,
+				BB43C6C82A614B4E0049062E /* Router */,
+				BB43C6CC2A614B5A0049062E /* View */,
+				BB43C6CB2A614B570049062E /* Interactor */,
+				BB43C6CD2A614B920049062E /* Model */,
+			);
+			path = CommentViper;
+			sourceTree = "<group>";
+		};
+		BB43C6C82A614B4E0049062E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6D22A614CCD0049062E /* CommentRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BB43C6C92A614B510049062E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6CE2A614C320049062E /* protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BB43C6CA2A614B540049062E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6D02A614C790049062E /* CommentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BB43C6CB2A614B570049062E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6D62A614D310049062E /* CommentInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BB43C6CC2A614B5A0049062E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6D42A614D010049062E /* CommentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB43C6CD2A614B920049062E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB43C6C42A6149BC0049062E /* CommentModel.swift */,
+				BB43C67D2A61466F0049062E /* commentCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB43C6D82A6158950049062E /* DelegateFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BBC7A67F2A6123A200DF237D /* AppDelegate.swift */,
+				BBC7A6812A6123A200DF237D /* SceneDelegate.swift */,
+			);
+			path = DelegateFiles;
+			sourceTree = "<group>";
+		};
 		BBC7A6732A6123A200DF237D = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +225,14 @@
 		BBC7A67E2A6123A200DF237D /* VIPERTest */ = {
 			isa = PBXGroup;
 			children = (
-				BBC7A67F2A6123A200DF237D /* AppDelegate.swift */,
-				BBC7A6812A6123A200DF237D /* SceneDelegate.swift */,
-				BBC7A6832A6123A200DF237D /* ViewController.swift */,
+				BB43C6772A613F4F0049062E /* Managers */,
+				BB43C6D82A6158950049062E /* DelegateFiles */,
 				BBC7A6852A6123A200DF237D /* Main.storyboard */,
 				BBC7A6882A6123A400DF237D /* Assets.xcassets */,
 				BBC7A68A2A6123A400DF237D /* LaunchScreen.storyboard */,
 				BBC7A68D2A6123A400DF237D /* Info.plist */,
+				BB43C67C2A61458A0049062E /* PostViper */,
+				BB43C6C72A614B280049062E /* CommentViper */,
 			);
 			path = VIPERTest;
 			sourceTree = "<group>";
@@ -138,9 +308,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC7A6842A6123A200DF237D /* ViewController.swift in Sources */,
+				BB43C6B52A6148100049062E /* ViewController.swift in Sources */,
+				BB43C6BD2A6148C60049062E /* Router.swift in Sources */,
+				BB43C6CF2A614C320049062E /* protocol.swift in Sources */,
+				BB43C6C22A61499C0049062E /* Interactor.swift in Sources */,
+				BB43C6D72A614D310049062E /* CommentInteractor.swift in Sources */,
+				BB43C6D32A614CCD0049062E /* CommentRouter.swift in Sources */,
+				BB43C6D12A614C790049062E /* CommentPresenter.swift in Sources */,
+				BB43C6C62A6149BC0049062E /* CommentModel.swift in Sources */,
+				BB43C67E2A61466F0049062E /* commentCell.swift in Sources */,
+				BB43C6D52A614D010049062E /* CommentViewController.swift in Sources */,
+				BB43C6C02A6149720049062E /* Protocols.swift in Sources */,
 				BBC7A6802A6123A200DF237D /* AppDelegate.swift in Sources */,
+				BB43C6C52A6149BC0049062E /* PostModel.swift in Sources */,
 				BBC7A6822A6123A200DF237D /* SceneDelegate.swift in Sources */,
+				BB43C6792A613F4F0049062E /* HTTPManager.swift in Sources */,
+				BB43C6B92A61488F0049062E /* Presenter.swift in Sources */,
+				BB43C6AF2A6147A40049062E /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +476,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +485,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ankur.teksun.VIPERTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,8 +506,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +515,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ankur.teksun.VIPERTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
